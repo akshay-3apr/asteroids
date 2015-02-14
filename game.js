@@ -712,7 +712,7 @@ Asteroid = function () {
       this.breakIntoFragments();
 ||||||| merged common ancestors
       // break into fragments
-      for (var i = 0; i < 2; i++) {
+      for (var i = 0; i < 3; i++) {
         var roid = $.extend(true, {}, this);
         roid.vel.x = Math.random() * 6 - 3;
         roid.vel.y = Math.random() * 6 - 3;
@@ -725,7 +725,7 @@ Asteroid = function () {
       }
 =======
       // break into fragments
-      for (var i = 0; i < 2; i++) {
+      for (var i = 0; i < 3; i++) {
         var roid = $.extend(true, {}, this);
         roid.vel.x = Math.random() * 6 - 3;
         roid.vel.y = Math.random() * 6 - 3;
